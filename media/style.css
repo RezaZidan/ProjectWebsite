@@ -1,0 +1,197 @@
+/* navbar */
+nav {
+    background-color: #2A2438;
+    box-shadow: 3px 3px 3px rgb(201, 200, 200);
+    margin-top: -17px;
+}
+
+/* footer */
+footer {
+    background-color: #2A2438;
+    margin: auto;
+    height: 40px;
+    padding: 10px;
+}
+footer p {
+    margin-left: 50px;
+}
+
+/* index */
+.index-content .row .col-md-7 img {
+    margin-left: 100px;
+}
+.index-about {
+    background-color: #5C5470;
+    color: white;
+}
+.index-contact {
+    background-color: #DBD8E3;
+}
+.index-contact .container form {
+    width: 700px;
+    margin: auto;
+}
+
+/* login daftar*/
+.container-login, .container-daftar {
+    margin: 50px auto;
+}
+.container-login form, .container-daftar form {
+    background-color: #2A2438;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 3px 3px 3px white, -3px -3px 3px white;
+}
+.container-login form button, .container-login form a, .container-daftar form button, .container-daftar form a {
+    width: 100%;
+}
+
+/* dashboard */
+.dashboard .row .notif {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #352F44;
+}
+.dashboard .content .row .col-md-6 i {
+    font-size: 50px;
+}
+.dashboard .content .row .col-md-6 {
+    width: 400px;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: -3px -5px 5px 3px black;
+    margin-right: 100px;
+}
+.dashboard .content .row .col-md-6 a  {
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.dashboard .content .row .col-md-6 {
+    transition: transform .5s;
+}
+.dashboard .content .row .col-md-6:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width:500px) {
+    .dashboard .content .row .col-md-6 a {
+        font-size: 20px;
+    }
+    .dashboard .content .row .col-md-6 i {
+        font-size: 30px;
+    }
+}
+
+/* member pengembalian denda */
+.member table tr td a i, .pengembalian table tr td a i, .member table tr td a i, .denda table tr td a i {
+    color: white;
+    text-decoration: none;
+}
+.member table tr td i, .pengembalian table tr td i, .member table tr td i, .denda table tr td i {
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* buku */
+.content-buku {
+    margin-top: 100px;
+}
+.buku .nav a {
+    border: 2px solid #352F44;
+}
+.buku .nav a:hover {
+    background-color: #352F44;
+    color: white;
+}
+.content-buku .content img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content-buku .content {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgb(199, 198, 198);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content-buku .button a {
+    background-color: #2A2438;
+    color: white;
+}
+.content-buku .content .content-detail h5, .content-buku .content .content-detail p, .content-buku .content .content-detail .button {
+    padding-left: 10px;
+}
+
+/* tambah edit detail buku */
+.tambah-buku-content, .edit-buku-content, .detail-buku-content {
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 10px;
+}
+
+/* buku member */
+.buku .member .nav {
+    margin-left: 240px;
+}
+.buku .member .nav a {
+    margin-right: 40px;
+}
+@media screen and (max-width:1200px) {
+    .buku .member .nav {
+        margin-left: 100px;
+    }
+    .buku .member .nav a {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:986px) {
+    .buku .member .nav {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:550px) {
+    .buku .member .nav {
+        margin-left: -70px;
+        width: 480px;
+    }
+}
+@media screen and (max-width:511px) {
+    .buku .member .nav {
+        margin-left: -70px;
+        width: 400px;
+    }
+}
+@media screen and (max-width:428px) {
+    .buku .member .nav {
+        margin-left: -70px;
+        width: 390px;
+    }
+}
+@media screen and (max-width:416px) {
+    .buku .member .nav {
+        display: none;
+    }
+}
+
+/* peminjmanan pengembalian member */
+.peminjaman .table tr td a, .denda .table tr td a, .member .table tr td a i, .pengembalian .table tr td a i{
+    background-color: #2A2438;
+    color: white;
+}
+.peminjaman .member .notif, .pengembalian .member .notif, .denda .member .notif, .pinjam-buku .notif{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: #352F44;
+}
+
+/* minjam */
+.pinjam-buku-content {
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 10px;
+}
